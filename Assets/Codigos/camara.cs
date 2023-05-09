@@ -8,7 +8,7 @@ public class camara : MonoBehaviour
     public float dondepersonaje;
     public float dondepersonajeY;
     
-    
+    //sisiadf
 
     // Update is called once per frame
     void Update()
@@ -16,6 +16,7 @@ public class camara : MonoBehaviour
         dondepersonaje = personaje.transform.position.x;
         dondepersonajeY = personaje.transform.position.y;
         transform.position = new Vector3 (dondepersonaje, dondepersonajeY, -10);
+        
         
     }
 }
