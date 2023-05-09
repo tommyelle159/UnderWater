@@ -12,7 +12,6 @@ public class camara : MonoBehaviour
     //GHGFHGF
 
     //KJDLJDLKSKLDJSF
-
     // Update is called once per frame
     void Update()
     {
