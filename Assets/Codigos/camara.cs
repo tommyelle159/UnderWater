@@ -9,6 +9,7 @@ public class camara : MonoBehaviour
     public float dondepersonajeY;
     
     //sisiadf
+    //GHGFHGF
 
     // Update is called once per frame
     void Update()
