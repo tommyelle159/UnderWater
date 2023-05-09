@@ -8,10 +8,7 @@ public class camara : MonoBehaviour
     public float dondepersonaje;
     public float dondepersonajeY;
     
-    //sisiadf
-    //GHGFHGF
-
-    //KJDLJDLKSKLDJSF
+    // Otro commit
     // Update is called once per frame
     void Update()
     {
