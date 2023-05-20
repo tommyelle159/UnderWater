@@ -101,8 +101,7 @@ public class principalScript : MonoBehaviour
     void OnGUI(){
 
 
-        //GUI.Label(new Rect(20, 20, 150, 80),"HOLA");
-        //GUI.Label(new Rect(20, 20, 150, 80),"Vida: "+Vida.ToString());
+        
 
         if (SceneManager.GetActiveScene().name == "Nivel1"){
             GUI.skin = miSkin;
@@ -110,10 +109,10 @@ public class principalScript : MonoBehaviour
         GUI.Label(new Rect(220, 40, 150, 80),"Enemigos: "+Enemigos.ToString(),"estiloScore");
         GUI.Label(new Rect(520, 40, 150, 80),"Score: "+Score.ToString(),"estiloScore");
         GUI.Label(new Rect(Anchopantalla-100, 20, 150, 80),"SKULL'S GARDEN", "estiloTitulo");
-        //GUI.Label(new Rect(Anchopantalla -120, 20, 150, 80),"SKULL GARDEN", "estiloTitulo");
+        
 
         //Imagen
-        //GUI.DrawTexture(new Rect(Screen.width-200,20,80,80),logoJuego);
+        
         GUI.DrawTexture(new Rect(Screen.width-200,40,128,128),logoJuego);
 
         }

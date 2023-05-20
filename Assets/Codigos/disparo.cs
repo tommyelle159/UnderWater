@@ -6,12 +6,12 @@ public class disparo : MonoBehaviour
 {
     public GameObject bala;
 
-    private audioManager gestorSonido;
+    //private audioManager gestorSonido;
 
     
 
     private void Awake() {
-    gestorSonido = audioManager.Instance;
+    //gestorSonido = audioManager.Instance;
     }
 
 
@@ -29,7 +29,7 @@ public class disparo : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.X) == true){
              Instantiate (bala,new Vector2(transform.position.x, transform.position.y), transform.rotation);
-             this.GetComponentInParent<AudioSource>().PlayOneShot(gestorSonido.GetComponent<audioManager>().lanzaBola, 1f);
+             //this.GetComponentInParent<AudioSource>().PlayOneShot(gestorSonido.GetComponent<audioManager>().lanzaBola, 1f);
 
         }
     }

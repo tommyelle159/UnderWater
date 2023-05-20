@@ -8,7 +8,7 @@ public class Movimiento : MonoBehaviour
     public float Speed = 2f;
     public float Salto = 5f;
     public bool ActivaSalto = true;
-    public Animator controlAnimacion;
+    // DA RIMETTEREpublic Animator controlAnimacion;
     public static bool direccionBala = false;
     public static bool ParardireccionBala = false;
     //public string clonBalaEnemigo;
@@ -101,7 +101,7 @@ public class Movimiento : MonoBehaviour
                  }
                  if(Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.D) ){
                     transform.localScale = new Vector3 (1,1,1);
-                    controlAnimacion.SetBool("activacamina",true);
+                    //controlAnimacion.SetBool("activacamina",true);
                      direccionBala = true;
                      ParardireccionBala = true;                                                                                    
                      paralax.DireccionPersonaje = "derecha";
@@ -111,7 +111,7 @@ public class Movimiento : MonoBehaviour
 
                  if(Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.A) ){
                     transform.localScale = new Vector3 (-1,1,1);
-                    controlAnimacion.SetBool("activacamina",true);
+                    //controlAnimacion.SetBool("activacamina",true);
                      direccionBala = false;                  
                      paralax.DireccionPersonaje = "izquierda";
                         
@@ -119,13 +119,13 @@ public class Movimiento : MonoBehaviour
 
                   if(Input.GetKeyUp(KeyCode.RightArrow) || Input.GetKeyUp(KeyCode.D) ){
                     transform.localScale = new Vector3 (1,1,1);
-                    controlAnimacion.SetBool("activacamina",false);
+                    //controlAnimacion.SetBool("activacamina",false);
                     ParardireccionBala = false;
                     paralax.DireccionPersonaje = "parado";
                  }
                  if(Input.GetKeyUp(KeyCode.LeftArrow) || Input.GetKeyUp(KeyCode.A) ){
                     transform.localScale = new Vector3 (-1,1,1);
-                    controlAnimacion.SetBool("activacamina",false);
+                    //controlAnimacion.SetBool("activacamina",false);
                     ParardireccionBala = true;
                     paralax.DireccionPersonaje = "parado";
                     
@@ -159,7 +159,9 @@ public class Movimiento : MonoBehaviour
         }
         if (col.CompareTag("Enemy"))
     {
-        StartCoroutine(ChangeColorTemporarily());  // Avvia la coroutine solo se l'oggetto ha il tag "enemy"
+        StartCoroutine(ChangeColorTemporarily());
+          // Avvia la coroutine solo se l'oggetto ha il tag "enemy"
+          principalScript.Vida--;
     }
     
     }
@@ -176,11 +178,6 @@ public class Movimiento : MonoBehaviour
         }
 
 
-
-
-    
-    
-        
 
      
         

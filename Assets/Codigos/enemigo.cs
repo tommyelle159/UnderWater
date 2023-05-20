@@ -21,7 +21,7 @@ public class enemigo : MonoBehaviour
 
 
     private void Awake() {
-    gestorSonido = audioManager.Instance;
+    //gestorSonido = audioManager.Instance;
     }
 
     
@@ -29,7 +29,7 @@ public class enemigo : MonoBehaviour
     void Start(){
         player = GameObject.FindGameObjectWithTag("Player");
         posicionInicial = transform.position;
-        emisorEnemigo = GetComponent<AudioSource>();
+        //emisorEnemigo = GetComponent<AudioSource>();
         objectRenderer = GetComponent<Renderer>();  // Ottiene il componente Renderer dell'enemigo
 
         
@@ -65,7 +65,7 @@ public class enemigo : MonoBehaviour
             StartCoroutine(ChangeColorTemporarily());
             
             
-            emisorEnemigo.PlayOneShot( gestorSonido.GetComponent<audioManager>().sonidoBola,1f);
+            //emisorEnemigo.PlayOneShot( gestorSonido.GetComponent<audioManager>().sonidoBola,1f);
             Destroy(this.gameObject, 0.3f);
         }
 
@@ -75,7 +75,7 @@ public class enemigo : MonoBehaviour
             player.transform.position = new Vector2 (-1.18f,1.44f);
             
 
-            gestorSonido.GetComponent<audioManager>().sonidoDead();
+            //gestorSonido.GetComponent<audioManager>().sonidoDead();
             
         }
         

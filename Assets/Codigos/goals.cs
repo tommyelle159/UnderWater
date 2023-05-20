@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class goals : MonoBehaviour
 {
-    private audioManager gestorSonido;
+    //private audioManager gestorSonido;
 
     
    private void Awake() {
-    gestorSonido = audioManager.Instance;
+    //gestorSonido = audioManager.Instance;
     }
 
     // Start is called before the first frame update
@@ -39,7 +39,7 @@ public class goals : MonoBehaviour
     {
         principalScript.Score +=10;
         Destroy(this.gameObject, 0.5f);
-        gestorSonido.GetComponent<audioManager>().sonidoPuntos();
+        //gestorSonido.GetComponent<audioManager>().sonidoPuntos();
     }
 }
 }
