@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 166b8d0fcfcdd16469ff1f1b1b576cfa
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Bubble Dope
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: ea4152e1b582363479e6df1876a6836a, type: 3}
+  - {fileID: 12800000, guid: 895e20c0b222ed244a849897059a420c, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

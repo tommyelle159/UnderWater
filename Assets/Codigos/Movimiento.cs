@@ -8,6 +8,13 @@ public class Movimiento : MonoBehaviour
     public float Speed = 2f;
     public float Salto = 5f;
     public bool ActivaSalto = true;
+    //animacion caida y salto
+    // public Rigidbody2D CR;
+    //private Collider2D coll;
+    //private enum Estado {Quiero, Camina, Salta, Caida}
+    
+    public Animator controlAnimacion;
+
     // DA RIMETTEREpublic Animator controlAnimacion;
     public static bool direccionBala = false;
     public static bool ParardireccionBala = false;
@@ -23,7 +30,11 @@ public class Movimiento : MonoBehaviour
     
 
      private void Start()
+   
+   
+    
     {
+         
         SceneManager.sceneLoaded += OnSceneLoaded; 
         objectRenderer = GetComponent<Renderer>();  // Ottiene il componente Renderer dell'enemigo
 
@@ -91,17 +102,23 @@ public class Movimiento : MonoBehaviour
                       transform.Translate (H,0,0);
 
                  //Controles
-
-                 
-                
+//SALTANDO
                  if(Input.GetKey(KeyCode.Space) && ActivaSalto == true){
                     GetComponent<Rigidbody2D> ().AddForce (new Vector2(0,Salto), ForceMode2D.Impulse);
                     ActivaSalto = false;
-                   
+                    controlAnimacion.SetBool("saltando", true);
+                    //controlAnimacion.SetBool("cayendo"),
                  }
+                
+                
+                 
+//activa camina controles
                  if(Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.D) ){
                     transform.localScale = new Vector3 (1,1,1);
-                    //controlAnimacion.SetBool("activacamina",true);
+                    controlAnimacion.SetBool("activacamina",true);
+
+
+                
                      direccionBala = true;
                      ParardireccionBala = true;                                                                                    
                      paralax.DireccionPersonaje = "derecha";
@@ -111,7 +128,8 @@ public class Movimiento : MonoBehaviour
 
                  if(Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.A) ){
                     transform.localScale = new Vector3 (-1,1,1);
-                    //controlAnimacion.SetBool("activacamina",true);
+                    controlAnimacion.SetBool("activacamina",true);
+                    
                      direccionBala = false;                  
                      paralax.DireccionPersonaje = "izquierda";
                         
@@ -119,17 +137,21 @@ public class Movimiento : MonoBehaviour
 
                   if(Input.GetKeyUp(KeyCode.RightArrow) || Input.GetKeyUp(KeyCode.D) ){
                     transform.localScale = new Vector3 (1,1,1);
-                    //controlAnimacion.SetBool("activacamina",false);
+                    controlAnimacion.SetBool("activacamina",false);
+
                     ParardireccionBala = false;
                     paralax.DireccionPersonaje = "parado";
                  }
                  if(Input.GetKeyUp(KeyCode.LeftArrow) || Input.GetKeyUp(KeyCode.A) ){
                     transform.localScale = new Vector3 (-1,1,1);
-                    //controlAnimacion.SetBool("activacamina",false);
+                    controlAnimacion.SetBool("activacamina",false);
+
                     ParardireccionBala = true;
                     paralax.DireccionPersonaje = "parado";
                     
                  }
+
+                
         }//final de vida
 
 

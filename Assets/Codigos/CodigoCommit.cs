@@ -8,6 +8,11 @@ public class CodigoCommit : MonoBehaviour
 //cambio prov
 
 //20 Mayo
+
+
+//actualizacion 25 de mayo
+//MIRAR TAREAS CON LA PROGRAMACION QUE FALLA
+
 {
     // Start is called before the first frame update
     void Start()
