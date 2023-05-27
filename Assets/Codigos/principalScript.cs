@@ -6,7 +6,8 @@ using UnityEngine.SceneManagement;
 public class principalScript : MonoBehaviour
 {
     public static int Score =0;
-    public static int Vida = 3;
+    public static int Vida = 10;
+    public static int Zanahoria =0;
     public int currentLives;
     public static int Enemigos = 0;
     public GUISkin miSkin;
@@ -105,10 +106,13 @@ public class principalScript : MonoBehaviour
 
         if (SceneManager.GetActiveScene().name == "Nivel1"){
             GUI.skin = miSkin;
-        GUI.Label(new Rect(20, 40, 150, 80),"Vida: "+Vida.ToString(),"estiloScore");
-        GUI.Label(new Rect(220, 40, 150, 80),"Enemigos: "+Enemigos.ToString(),"estiloScore");
-        GUI.Label(new Rect(520, 40, 150, 80),"Score: "+Score.ToString(),"estiloScore");
-        GUI.Label(new Rect(Anchopantalla-100, 20, 150, 80),"SKULL'S GARDEN", "estiloTitulo");
+        GUI.Label(new Rect(20, 40, 150, 80),"     x"+Vida.ToString(),"estiloScore");
+        //GUI.Label(new Rect(220, 40, 150, 80),"Enemigos: "+Enemigos.ToString(),"estiloScore");
+        
+        GUI.Label(new Rect(220, 40, 150, 80),"     x"+Score.ToString(),"estiloScore");
+        GUI.Label(new Rect(520, 40, 150, 80)," x"+Zanahoria.ToString(),"estiloScore");
+        
+        GUI.Label(new Rect(1500 + 500, 20, 150, 80),"UNDERWATER", "estiloTitulo");
         
 
         //Imagen
@@ -120,10 +124,11 @@ public class principalScript : MonoBehaviour
         if (SceneManager.GetActiveScene().name == "GameOver"){
             GUI.skin = miSkin;
             
-        GUI.Label(new Rect(220, 40, 150, 80),"Enemigos: "+Enemigos.ToString(),"estiloScore");
-        GUI.Label(new Rect(520, 40, 150, 80),"Score: "+Score.ToString(),"estiloScore");
-        GUI.Label(new Rect(Anchopantalla-100, 20, 150, 80),"SKULL'S GARDEN", "estiloTitulo");
-        //GUI.Label(new Rect(Anchopantalla -120, 20, 150, 80),"SKULL GARDEN", "estiloTitulo");
+        //GUI.Label(new Rect(220, 40, 150, 80),"Enemigos: "+Enemigos.ToString(),"estiloScore");
+        GUI.Label(new Rect(220, 40, 150, 80),"     x"+Score.ToString(),"estiloScore");
+        GUI.Label(new Rect(520, 40, 150, 80)," x"+Zanahoria.ToString(),"estiloScore");
+        GUI.Label(new Rect(Anchopantalla-100, 20, 150, 80),"UNDERWATER", "estiloTitulo");
+        
 
         //Imagen
         //GUI.DrawTexture(new Rect(Screen.width-200,20,80,80),logoJuego);

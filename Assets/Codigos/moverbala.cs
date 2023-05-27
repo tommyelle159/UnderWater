@@ -20,10 +20,12 @@ public class moverbala : MonoBehaviour
         {
             // Il personaggio è girato verso sinistra, lancia verso la direzione x-
             direction = Vector3.left;
+            // Flippa l'immagine della bolla
+            SpriteRenderer spriteRenderer = GetComponent<SpriteRenderer>();
+            spriteRenderer.flipX = true;
         }
-        {
-        Destroy (gameObject, 2f);
-    }
+
+        Destroy(gameObject, 2f);
     }
 
     private void Update()
@@ -42,7 +44,6 @@ public class moverbala : MonoBehaviour
         }
     }
 }
-
 
 
 

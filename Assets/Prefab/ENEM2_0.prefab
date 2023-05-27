@@ -11,13 +11,12 @@ GameObject:
   - component: {fileID: 2599554714928528288}
   - component: {fileID: 7913436332618270673}
   - component: {fileID: 7567338961264737418}
-  - component: {fileID: 7342471278313516699}
-  - component: {fileID: 8114948423511762989}
   - component: {fileID: 7075427346841242372}
   - component: {fileID: 5378562512218275554}
+  - component: {fileID: 6303002553378232576}
   m_Layer: 0
   m_Name: ENEM2_0
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -107,34 +106,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
---- !u!114 &7342471278313516699
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4781225359494055551}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 200589cdeb355ed4fa5bdb596679fa04, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  clonBala: 
-  player: {fileID: 0}
---- !u!114 &8114948423511762989
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4781225359494055551}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 200589cdeb355ed4fa5bdb596679fa04, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  clonBala: 
-  player: {fileID: 0}
 --- !u!61 &7075427346841242372
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -152,7 +123,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.0251335, y: 1.2609376}
+    oldSize: {x: 1.2814168, y: 1.5761719}
     newSize: {x: 1.0251335, y: 1.2609376}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -182,3 +153,17 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &6303002553378232576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4781225359494055551}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 200589cdeb355ed4fa5bdb596679fa04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clonBala: 
+  player: {fileID: 0}

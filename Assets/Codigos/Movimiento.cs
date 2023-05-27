@@ -106,10 +106,13 @@ public class Movimiento : MonoBehaviour
                  if(Input.GetKey(KeyCode.Space) && ActivaSalto == true){
                     GetComponent<Rigidbody2D> ().AddForce (new Vector2(0,Salto), ForceMode2D.Impulse);
                     ActivaSalto = false;
-                    controlAnimacion.SetBool("saltando", true);
+                    controlAnimacion.SetBool("saltar", true);
+                    
                     //controlAnimacion.SetBool("cayendo"),
+
                  }
-                
+
+                 
                 
                  
 //activa camina controles
@@ -163,6 +166,7 @@ public class Movimiento : MonoBehaviour
 
         ActivaSalto = true;
 
+// para activar salto que vuelva a pasivo y en saltando que sea false
     
     }
 
