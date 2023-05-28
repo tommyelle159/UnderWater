@@ -1,0 +1,469 @@
+fileFormatVersion: 2
+guid: 95312a9877f707b45ac6ea8ddf054213
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2000962498339928199
+    second: "Ilustraci\xF3n_sin_t\xEDtulo 5 (1)_0"
+  - first:
+      213: 9010028132698593527
+    second: "Ilustraci\xF3n_sin_t\xEDtulo 5 (1)_1"
+  - first:
+      213: 4418606191712073425
+    second: "Ilustraci\xF3n_sin_t\xEDtulo 5 (1)_2"
+  - first:
+      213: 6231473201697929820
+    second: "Ilustraci\xF3n_sin_t\xEDtulo 5 (1)_3"
+  - first:
+      213: -119543052344966998
+    second: "Ilustraci\xF3n_sin_t\xEDtulo 5 (1)_4"
+  - first:
+      213: 6158277695214456630
+    second: "Ilustraci\xF3n_sin_t\xEDtulo 5 (1)_5"
+  - first:
+      213: -4754443544801092772
+    second: "Ilustraci\xF3n_sin_t\xEDtulo 5 (1)_6"
+  - first:
+      213: 8215730090831505237
+    second: "Ilustraci\xF3n_sin_t\xEDtulo 5 (1)_7"
+  - first:
+      213: -3212095743722219166
+    second: "Ilustraci\xF3n_sin_t\xEDtulo 5 (1)_8"
+  - first:
+      213: 4969085100533766466
+    second: "Ilustraci\xF3n_sin_t\xEDtulo 5 (1)_9"
+  - first:
+      213: -2040200869186937675
+    second: "Ilustraci\xF3n_sin_t\xEDtulo 5 (1)_10"
+  - first:
+      213: 6126250317734006738
+    second: "Ilustraci\xF3n_sin_t\xEDtulo 5 (1)_11"
+  - first:
+      213: -759852359072940059
+    second: "Ilustraci\xF3n_sin_t\xEDtulo 5 (1)_12"
+  - first:
+      213: -5057107874785185119
+    second: "Ilustraci\xF3n_sin_t\xEDtulo 5 (1)_13"
+  - first:
+      213: 1203087086413579972
+    second: "Ilustraci\xF3n_sin_t\xEDtulo 5 (1)_14"
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Ilustraci\xF3n_sin_t\xEDtulo 5 (1)_0"
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 849
+        width: 131
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 788fd6a6ac8d4cb10800000000000000
+      internalID: 2000962498339928199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ilustraci\xF3n_sin_t\xEDtulo 5 (1)_1"
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 849
+        width: 132
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f896c979dc0a0d70800000000000000
+      internalID: 9010028132698593527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ilustraci\xF3n_sin_t\xEDtulo 5 (1)_2"
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 849
+        width: 131
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d6f65babea025d30800000000000000
+      internalID: 4418606191712073425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ilustraci\xF3n_sin_t\xEDtulo 5 (1)_3"
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 668
+        width: 131
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5a32967cd3aa7650800000000000000
+      internalID: 6231473201697929820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ilustraci\xF3n_sin_t\xEDtulo 5 (1)_4"
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 668
+        width: 132
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa0cc9d2a3c475ef0800000000000000
+      internalID: -119543052344966998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ilustraci\xF3n_sin_t\xEDtulo 5 (1)_5"
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 668
+        width: 131
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63f08739fe8967550800000000000000
+      internalID: 6158277695214456630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ilustraci\xF3n_sin_t\xEDtulo 5 (1)_6"
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 497
+        width: 131
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5b5b7f39c2d40eb0800000000000000
+      internalID: -4754443544801092772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ilustraci\xF3n_sin_t\xEDtulo 5 (1)_7"
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 497
+        width: 132
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 557ef722df2240270800000000000000
+      internalID: 8215730090831505237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ilustraci\xF3n_sin_t\xEDtulo 5 (1)_8"
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 497
+        width: 131
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26994e280f75c63d0800000000000000
+      internalID: -3212095743722219166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ilustraci\xF3n_sin_t\xEDtulo 5 (1)_9"
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 315
+        width: 131
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2495004529cb5f440800000000000000
+      internalID: 4969085100533766466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ilustraci\xF3n_sin_t\xEDtulo 5 (1)_10"
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 315
+        width: 131
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bc5ba17e10cfa3e0800000000000000
+      internalID: -2040200869186937675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ilustraci\xF3n_sin_t\xEDtulo 5 (1)_11"
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 317
+        width: 131
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dfc8a9a430d40550800000000000000
+      internalID: 6126250317734006738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ilustraci\xF3n_sin_t\xEDtulo 5 (1)_12"
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 223
+        width: 128
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eff6b72e467475f0800000000000000
+      internalID: -759852359072940059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ilustraci\xF3n_sin_t\xEDtulo 5 (1)_13"
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 113
+        width: 132
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a2399c7e2b81d9b0800000000000000
+      internalID: -5057107874785185119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Ilustraci\xF3n_sin_t\xEDtulo 5 (1)_14"
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 106
+        width: 131
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c68a83b45932b010800000000000000
+      internalID: 1203087086413579972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

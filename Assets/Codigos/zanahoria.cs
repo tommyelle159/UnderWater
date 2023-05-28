@@ -17,7 +17,7 @@ public class zanahoria : MonoBehaviour
         {
             // Animazione collected
             GetComponent<SpriteRenderer>().enabled = false;
-            //transform.GetChild(0).gameObject.SetActive(true);
+            gameObject.transform.GetChild(0).gameObject.SetActive(true);
             Destroy(gameObject, 0.5f);
 
             principalScript.Zanahoria += 1;

@@ -12,6 +12,8 @@ public class CodigoCommit : MonoBehaviour
 //Incorporar botones menú
 // Construir mapa NIVEL 2   
 
+//cambio 28 provisorio dedeeede
+
 {
     // Start is called before the first frame update
     void Start()
